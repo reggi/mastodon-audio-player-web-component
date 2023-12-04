@@ -6,7 +6,14 @@
   "scripts": {
     "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --minify --sourcemap"
   },
-  "keywords": ["mastodon", "web-component", "audio-player"],
+  "keywords": [
+    "mastodon",
+    "web-component",
+    "audio-player"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.8"
+  }
 }
