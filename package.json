@@ -4,7 +4,7 @@
   "description": "A recreation of mastodons audio player as a web component.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --minify --sourcemap & cp ./dist/* ./demo/js/ "
+    "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --minify --sourcemap"
   },
   "keywords": ["mastodon", "web-component", "audio-player"],
   "author": "",
