@@ -213,6 +213,7 @@ export class AudioPlayer extends HTMLElement {
     this.timeContainer.style.fontFamily = 'sans-serif'
     this.timeContainer.style.fontSize = '17px'
     this.timeContainer.style.display = 'inline-block'
+    this.timeContainer.style.color = '#ffffff'
     this.currentTimeElement = document.createElement('span')
     this.currentTimeElement.textContent = '00:00'
 
