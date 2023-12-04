@@ -1,6 +1,6 @@
 {
   "name": "mastodon-audio-player-web-component",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A recreation of mastodons audio player as a web component.",
   "main": "dist/bundle.js",
   "scripts": {
