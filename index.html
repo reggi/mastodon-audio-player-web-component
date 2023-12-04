@@ -8,13 +8,21 @@
     <style>
       body {
         background-color: #1E2028;
+        font-family: sans-serif;
+        color: #fff;
       }
       .container {
-        margin-top: 60px;
+        margin-top: 160px;
         margin-left: auto;
         margin-right: auto;
         max-width: 600px;
-        text-align: center;
+      }
+      a {
+       color: #1b5eb5;
+       font-weight: bold;
+      }
+      a:hover {
+        color:#0569eb;
       }
     </style>
 </head>
@@ -24,7 +32,12 @@
       src="https://media.mstdn.social/media_attachments/files/111/392/270/549/239/297/original/039bb892e6e1dcdf.mp3"
       poster="https://media.mstdn.social/media_attachments/thumbnails/111/392/270/549/239/297/original/74f8661b8cb11189.jpg"
     ></audio-player>
-    <p>The file above was pulled from here: <a href="https://mstdn.social/@feditips/111392315331560841" id="source">Source</a></p>
+    <p>
+      This is a web-component reverse engineered from mastodons source code, available here: <a href="https://github.com/reggi/mastodon-audio-player-web-component/tree/main" target="_blank">github.com/reggi/mastodon-audio-player-web-component</a>.
+      <br/>
+      <br/>
+      The audio above is from this mastodon post here: <a href="https://mstdn.social/@feditips/111392315331560841" target="_blank">Source</a>.
+    </p>
   </div>
 </body>
 </html>
